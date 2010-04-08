@@ -1,0 +1,21 @@
+
+
+body {height:100%; margin:0;}
+#modal-content {display:none;}
+
+/* Overlay */
+#simplemodal-overlay {background-color:#000; cursor:wait;}
+
+/* Container */
+#simplemodal-container {
+    height:300px;
+    width:270px;
+    border:1px solid #444;
+    background: #eee;
+    padding:12px;
+}
+
+#simplemodal-container a {color:#ddd;}
+#simplemodal-container a.modalCloseImg {background:url(/files/x.png) no-repeat; width:25px; height:29px; display:inline; z-index:3200; position:absolute; top:-15px; right:-16px; cursor:pointer;}
+#simplemodal-container #basic-modal-content {padding:8px;}
+

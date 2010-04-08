@@ -1,0 +1,78 @@
+.edit-form{    
+    font-size:12px;
+    font-weight: normal;
+    margin-left: 20px;
+    background: white;
+    border: 1px solid #ccc;
+    width: 400px;
+    font-family: "Lucida Grande","DejaVu Sans","Bitstream Vera Sans",Verdana,Arial,sans-serif;
+}
+
+.edit-form label{
+    font-family: "Lucida Grande","DejaVu Sans","Bitstream Vera Sans",Verdana,Arial,sans-serif;  
+    font-weight: normal;
+    float: right;
+    margin-right: 10px;
+    font-size: 12px;
+}
+
+.edit-form input{
+    border: 1px solid #959595;
+    font-size: 12px;
+    height: 20px;
+    margin-top: 3px;
+    padding: 2px 3px 0px 3px;
+}
+
+.edit-form select{
+    margin-top: 3px;
+    border: 1px solid #959595;
+    font-size: 11px;
+}
+
+.edit-form input:hover{
+    border:1px solid #358ec1;
+}
+
+.edit-form input:focus{
+    color: #358ec1;
+}
+
+.edit-form select:hover{
+    border:1px solid #358ec1;
+}
+
+.edit-form .submit{
+    border: 1px solid #506723;
+    background-color: #79993c;  
+    color: #fff;
+    font-size: 12px;
+    margin: 3px 5px;
+    padding-bottom: 6px;
+    padding-top: 0px;
+    height: 20px;
+    text-shadow: #333 0.1em 0.1em 0.2em;
+}
+
+.edit-form .submit:hover{
+    border: 1px solid #344516;
+    text-shadow: #333 0.1em -0.1em 0.2em;  
+}
+
+.edit-form .submits{
+    margin-top: 8px;
+    margin-left: 90px;
+}
+
+ul.errorlist{
+    color: red;
+    font-size: 11px;
+}
+
+button::-moz-focus-inner,
+input[type="reset"]::-moz-focus-inner,
+input[type="button"]::-moz-focus-inner,
+input[type="submit"]::-moz-focus-inner,
+input[type="file"] > input[type="button"]::-moz-focus-inner {
+    border: 1px dotted transparent;
+}
