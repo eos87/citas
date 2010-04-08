@@ -12,7 +12,7 @@ PROJECT_DIR = os.path.dirname(__file__)
 MANAGERS = ADMINS
 
 DATABASE_ENGINE = 'sqlite3'           
-DATABASE_NAME = PROJECT_DIR + '/db/citas-storage.db'
+DATABASE_NAME = PROJECT_DIR + 'base.db'
 DATABASE_USER = ''             # Not used with sqlite3.
 DATABASE_PASSWORD = ''         # Not used with sqlite3.
 DATABASE_HOST = ''             # Set to empty string for localhost. Not used with sqlite3.
