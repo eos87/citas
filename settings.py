@@ -4,7 +4,7 @@ DEBUG = True
 TEMPLATE_DEBUG = DEBUG
 
 ADMINS = (
-    # ('Helmy Giacoman', 'your_email@domain.com'),
+    ('Helmy Giacoman', 'your_email@domain.com'),
 )
 
 PROJECT_DIR = os.path.dirname(__file__)
